@@ -49,9 +49,25 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 - **[Lendio](https://lendio.com)**
 
-## Contributing
+## Instruction to install the application
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+git clone ...
+cd car_rental_system
+composer install
+npm install
+php artisan migrate
+
+Don't forget to copy the env file and enter a valid database name before migration.
+After creating .env file please run this command to generate an application key
+
+php artisan key:generate
+
+## usage
+
+php artisan serve
+npm run dev
+
+
 
 ## Code of Conduct
 
