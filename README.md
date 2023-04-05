@@ -51,21 +51,21 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Instruction to install the application
 
-git clone ...
-cd car_rental_system
-composer install
-npm install
-php artisan migrate
+- git clone ...
+- cd car_rental_system
+- composer install
+- npm install
+- php artisan migrate
 
 Don't forget to copy the env file and enter a valid database name before migration.
 After creating .env file please run this command to generate an application key
 
-php artisan key:generate
+- php artisan key:generate
 
 ## usage
 
-php artisan serve
-npm run dev
+- php artisan serve
+- npm run dev
 
 
 
